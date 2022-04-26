@@ -7,6 +7,7 @@ const inputListContainer = document.getElementById("btns-container-js");
 
 // Function loops through inputs to see which
 // input was clicked, then when on that input
+// when form gets submitted
 // the html elements get changed.
 function clickListener() {
     for (let i = 0; i < inputList.length; i++) {

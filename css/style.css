@@ -54,11 +54,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1.5rem;
+    padding: 0 1.25rem;
 
 }
 
-/* ARTICLE 1 */
+/* ARTICLE 1/RATING CARD */
 .article-1 {
      max-width: 345px;
      background-color: var(--dark-blue);
@@ -137,12 +137,13 @@ button:hover {
     color: var(--orange);
 }
 
-/* ARTICLE 2 */
+/* ARTICLE 2/THANK YOU CARD */
 .article-2 {
     max-width: 345px;
+    height: 359px;
     background-color: var(--dark-blue);
     border-radius: 1rem;
-    padding: 1.25rem;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -168,7 +169,6 @@ button:hover {
     color: var(--light-grey);
     font-size: .9rem;
     line-height: 1.4rem;
-    margin-bottom: 1rem;
 }
 
 /* MEDIA QUERIES */
